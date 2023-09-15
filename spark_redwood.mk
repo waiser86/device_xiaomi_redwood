@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from redwood device
 $(call inherit-product, device/xiaomi/redwood/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Spark stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 PRODUCT_BRAND := POCO
@@ -19,6 +19,14 @@ PRODUCT_DEVICE := redwood
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22101320G
 PRODUCT_NAME := spark_redwood
+
+# Spark Stuffs
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_SUPPORTS_CALL_RECORDING := false
+TARGET_ENABLE_BLUR := true
+WITH_GAPPS :=true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
