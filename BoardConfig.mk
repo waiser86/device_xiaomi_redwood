@@ -112,6 +112,7 @@ BOARD_KERNEL_CMDLINE += ip6table_raw.raw_before_defrag=1
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
+    focaltech_touch.ko \
     goodix_core.ko \
     hwid.ko \
     msm_drm.ko \
