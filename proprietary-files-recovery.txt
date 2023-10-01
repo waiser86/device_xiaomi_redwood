@@ -1,0 +1,6 @@
+# All unpinned blobs below are extracted from redwood_global-user 13 RKQ1.211001.001 V14.0.4.0.TMSMIXM release-keys
+
+# Touchscreen firmware
+vendor/firmware/goodix_cfg_group_m20.bin:recovery/root/vendor/firmware/goodix_cfg_group_m20.bin
+vendor/firmware/goodix_firmware_m20.bin:recovery/root/vendor/firmware/goodix_firmware_m20.bin
+vendor/firmware/focaltech_ts_fw_m20.bin:recovery/root/vendor/firmware/focaltech_ts_fw_m20.bin
